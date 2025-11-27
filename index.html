@@ -3,547 +3,1203 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <title>IWMF.ORG</title>
+    <title>Oyunbilig's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="iwmf.css">
+    <link rel="shortcut icon" href="https://media.licdn.com/dms/image/v2/D4D03AQH2qqVYhrpyqg/profile-displayphoto-shrink_800_800/B4DZc2_vMwHMAs-/0/1748974368652?e=1765411200&v=beta&t=HyRVxJ9KOmmr8Mj5MIwCPa9nUmGpV3Wj-BoSP_K8A2Y" type="image/x-icon">
 </head>
 <body>
-    <div class="header">
-        <div class="logo">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/8/85/IWMF_horizon_logo_RGB_Sm.jpg" width="300px" height="auto">
-        </div>
-        <div class="menu">
-            <ul>
-                <li>
-                    <a href="">About</i></a>
-                    <div class="dropdown">
-                        <ul>
-                            <li>
-                                <a href="">Board of Directors</a>
-                            </li>
-                            <li>
-                                <a href="">Staff</a>
-                            </li>
-                            <li>
-                                <a href="">Meet our Donors</a>
-                            </li>
-                            <li>
-                                <a href="">News</a>
-                            </li>
-                            <li>
-                                <a href="">Impact</a>
-                            </li>
-                            <li>
-                                <a href="">Resources <i class="fas fa-caret-right"></i></a>
-                                <div class="dropdown2">
-                                    <ul>
-                                        <li>
-                                            <a href="">Self care & Trauma</a>
-                                        </li>
-                                        <li>
-                                            <a href="">Research</a>
-                                        </li>
-                                        <li>
-                                            <a href="">Webinars</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="">Contact us</a>
-                            </li>
+    <main>
+        <aside class="sidebar " data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="https://media.licdn.com/dms/image/v2/D4D03AQEesM0Vp6XxmA/profile-displayphoto-crop_800_800/B4DZqvxW3SIkAI-/0/1763885551990?e=1765411200&v=beta&t=LXc8oZSYvjThmZneeutcLXw2xtkoMYhe1rFsFN42MVY" alt="">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Oyunbilig Nergui">Oyunbilig Nergui</h1>
+                    <p class="title">Gap year student</p>
+                </div>
+
+                <button class="info-more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+
+            <div class="sidebar-info-more">
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="mailto:richard@example.com" class="contact-link">N.Oyuka0506@gmail.com</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+
+                            <a href="tel:+12133522795" class="contact-link">+(976) 94433977</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+
+                            <time datetime="1982-06-23">May 6, 2007</time>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+
+                            <address>Ulaanbaatar, Mongolia</address>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+                    <li class="social-item"><a href="https://www.facebook.com/oyuka.oyunbilig.7" class="social-link"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li class="social-item"><a href="https://www.instagram.com/oyunblig/" class="social-link"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                    <li class="social-item"><a href="https://www.linkedin.com/in/oyunbilig-nergui-3b344a2ab/" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <div class="main-content">
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Verifications</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li>
+                </ul>
+            </nav>
+
+            <article class="about active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+
+                <section class="about-text">
+                    <p>I’m a Gap year student, planning to major in Computer Science, with a deep passion for using technology to create social impact.</p>
+                    <p> I'm excited to continue building technology that serves communities, explore global collaboration, and grow as a student-athlete, problem solver, and changemaker.</p>
+                </section>
+
+
+                <section class="service">
+                    <h3 class="h3 service-title">Who Am I?</h3>
+
+                    <ul class="service-list">
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="portfolio-image/download (1).png" alt="icon" width="45">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Table tennis athlete</h4>
+                                <p class="service-item-text">
+                                    I have been playing table tennis since age six and am now a member of the national team, ranked 3rd nationally, holding a Sports Master degree. Table tennis has shaped my character, reflecting how I approach and overcome challenges both on and off the court.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="portfolio-image/download (2).png" alt="icon" width="50">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web Developer</h4>
+                                <p class="service-item-text">
+                                    I fell in love with coding in 10th grade because it turns imagination into reality. As a full-stack developer, I create meaningful projects that serve society, improve lives, and empower communities through technology.
+                                </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="portfolio-image/2392025.png" alt="icon" width="45">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Community Builder</h4>
+                                <p class="service-item-text">
+                                    Passionate about education and inclusion, I founded She Can Code and Codely Coding Academy, creating programs that introduce coding to hundreds of students, especially girls, in a male-dominated field. I strive to open doors for others, ensuring equal opportunities for learning and growth.
+                                </p>                            
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="portfolio-image/3040748.png" alt="icon" width="45">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Innovator & Problem-Solver</h4>
+                                <p class="service-item-text">
+                                    I enjoy tackling challenges through creative solutions. From implementing the Eco-Edu waste management project in 10 schools to developing interactive digital platforms, I focus on turning ideas into impactful actions that benefit communities and inspire positive change.
+                                </p>                            
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                
+
+                
+
+                <div class="modal-container " data-modal-container>
+                    <div class="overlay " data-overlay></div>
+
+                    <section class="testimonials-modal">
+                        <button class="modal-close-btn" data-modal-close-btn><ion-icon name="close-outline"></ion-icon></button>
+
+                        <div class="modal-img-wrapper">
+                            <figure class="modal-avatar-box">
+                                <img src="https://i.postimg.cc/zGDHfn3G/avatar-1.png" alt="Daniel Lewis" width="80" data-modal-img>
+                            </figure>
+
+                            <img src="https://i.postimg.cc/mZ00RwX7/icon-quote.png" alt="quote icon">
+                        </div>
+
+                        <div class="modal-content">
+                            <h4 class="h3 modal-title" data-modal-title>Daniel Lewis</h4>
+                            <time datetime="2023-06-14">14 June, 2023</time>
+
+                            <div class="modal-text" data-modal-text>
+                                <p>Richard was hired to create a corporate identity. It's modern, clean and with a beautiful design that got a lot of praises from colleagues and visitors. We were very pleased with the work done. He has a lot of experience and is very concerned about the needs of client.</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                /
+
+                <section class="clients">
+                    <h3 class="h3 clients-title">Codely Coding Academy</h3>
+
+                    <ul class="clients-list has-scrollbar">
+                        <li class="clients-item">
+                            <a href="#"><img class="codely" src="portfolio-image/CODLY LOGO (1).png" alt="logo" width="100%" height="auto"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img class="scc" src="portfolio-image/SCC LOGO (1).png" alt="logo" width="200px" height="auto"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img class="monpy" src="portfolio-image/Frame 567.png" alt="logo" width="150px" height="auto" ></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img class="catai" src="portfolio-image/CATAI LOGO.png" alt="logo" width="132px" height="auto"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img class="cc" src="portfolio-image/c++.png" alt="logo" width="110px" height="aut"></a>
+                        </li>
+                        
+                    </ul>
+                </section>
+
+            </article>
+            
+            <article class="resume " data-page="resume">
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+
+                        <h3 class="h3">Education</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">52nd Secondary School, Ulaanbaatar</h4>
+                            <span>2012 - 2025</span>
+                            <p class="timeline-text">Valedictorean of 2025</p>
+                            <p class="timeline-text">Student of the year'22-25</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Grow with Google</h4>
+                            <span>February 2024 - June 2024</span>
+                            <p class="timeline-text">IT support professional; a hands-on IT support program that covers troubleshooting, customer service, networking, operating system, system administration, and security.</p>
+                        </li>
+
+                       
+                    </ol>
+                </section>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+
+                        <h3 class="h3">Sports</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Mongolian Table Tennis Association</h4>
+                            <span>2014 - 2025</span>
+                            <p class="timeline-text">
+                                - National Team athlete; Ranked 3rd Nationally
+                            </p>
+                            <p class="timeline-text">
+                                - Team Captain since 2018; 5 times champion of National Table Tennis Championship
+                            </p>
+                            <p class="timeline-text">
+                                - Semifinalist of East Asian Table Tennis Championship'19; Semifinalist of East Asian Youth Games'23
+                            </p>
+                            <p class="timeline-text"> - 64 national and international honors</p>
+                        </li>
+                    </ol>
+                </section>
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+
+                        <h3 class="h3">Internship</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">American Space, Ulaanbaatar</h4>
+                            <span>Dec 2023 - June 2024</span>
+                            <p class="timeline-text">
+                                Led and coordinated the “Lego Edu” program as the leader of the Lego Mindstorms Club, organizing 3 hands-on workshops focused on robotics and programming. I designed and delivered interactive lessons on robotic crafting and coding, engaging 84 students and fostering their interest in STEM education through creative, team-based learning.                            </p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Youth Sustainability Corps, MEC</h4>
+                            <span>May 2024 - August 2025</span>
+                            <p class="timeline-text">
+                                I led the development of YSC’s website and mobile app, designing the entire web structure and UI/UX, which helped the platform reach over 15,000 users and become the organization’s first fully digitized system. Alongside this work, I co-developed 34 lessons on SDGs and digital skills, grew a community of 1,200 members, and recruited more than 180 online interns. I also implemented a fully digitized leaderboard system to support program engagement.                            </p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Erxes Inc</h4>
+                            <span>Sep 2025 - Nov 2025</span>
+                            <p class="timeline-text">
+                                Project development intern; co-developed educational curriculum for a combined college prep and coding program; learned to develop payment gateway and processor
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Gerhub</h4>
+                            <span>July 2025 - Aug 2025</span>
+                            <p class="timeline-text">
+                                Interned as a Website developer, built Gerhub NGO's 2.0 website rebranding. Learned to stabilize API integrations and URL routing.                            
+                            </p>
+                        </li>
+                    </ol>
+                </section>
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+
+                        <h3 class="h3">Projects</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Young Novel Engineer, Gerhub</h4>
+                            <span>Jan 2024 - Feb 2024</span>
+                            <p class="timeline-text">
+                                Program participant; led a 15-member team in developing a bioplastic cup from tree resin and recycled paper, earning the program’s “Best Project” award.
+                            </p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Young Engineers Mongolia</h4>
+                            <span>Feb 2024 - April 2025</span>
+                            <p class="timeline-text">
+                                Coordinated the "Young Engineers Program," a three-month initiative to enhance high school students' engineering knowledge. As a coordinator, I invited 10 engineers to mentor students, fostering engineering curiosity & STEM.
+                            </p>                        
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">"Eco-Edu" project, Zorig Foundation</h4>
+                            <span>Jan 2024 - June 2024</span>
+                            <p class="timeline-text">
+                                As a participant in the Student Empowerment Program, our team implemented the Eco-Edu Project, which aimed to improve waste management across 10 secondary schools. Over six months, we installed recycling stations in all 10 schools, led 184 volunteers from their eco-clubs, and recycled 3 tons of plastic, 1,084 glass bottles, and 84 kg of batteries. The project reached 34,000+ students by promoting proper waste sorting and recycling, and we secured 14 million MNT in funding from the MCS Coca-Cola Group.
+                            </p>                        
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">"She Can Code" program</h4>
+                            <span>June 2025 - Aug 2025</span>
+                            <p class="timeline-text">
+                                Being the only girl at my coding academy motivated me to found She Can Code, a seven-week program dedicated to bringing more girls into the tech space. I trained 20 girls from beginner level to junior front-end developers and expanded the initiative through four open workshops that introduced programming languages, tech professions, and a beginner C++ lesson. Altogether, these workshops helped 323 girls write their first line of code and explore pathways in technology.
+                            </p>                        
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Codely Coding Academy</h4>
+                            <span>Aug 2025 - Present</span>
+                            <p class="timeline-text">
+                                Building on the impact of She Can Code, I co-founded Codely Coding Academy, a youth-led nonprofit organization dedicated to providing free coding education. We expanded our reach by ensuring a 50–50 gender ratio in every program and opening our doors to all students. Codely now offers four core programs: She Can Code (HTML, CSS, JavaScript, React) for web development, MonPy for Python, C++ for competitive programming, and an introduction to AI theory and applications. We also became the first coding academy to offer free coding lessons in the Mongolian language.
+                            </p>                        
+                        </li>
+                    </ol>
+                </section>
+                
+
+                <section class="skill">
+                    <h3 class="h3 skills-title">My Skills</h3>
+
+                    <ul class="skills-list content-card">
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Front-end development</h5>
+                                <data value="80">100%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 100%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Back-end development</h5>
+                                <data value="70">70%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 70%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Web design</h5>
+                                <data value="50">50%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 50%;"></div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Public-speaking</h5>
+                                <data value="80">80%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 80%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <article class="verifications" data-page="verifications">
+                <header>
+                    <h2 class="h2 article-title">Verifications </h2>
+                </header>
+
+                <section class="projects">
+                    <ul class="filter-list">
+                        <li class="filter-item"><button data-filter-btn>Sports</button></li>
+                        <li class="filter-item"><button data-filter-btn>She Can Code</button></li>
+                        <li class="filter-item"><button data-filter-btn>Codely</button></li>
+                        <li class="filter-item"><button data-filter-btn>Internships</button></li>
+                        <li class="filter-item"><button data-filter-btn>Eco-Edu</button></li>
+                        <li class="filter-item"><button data-filter-btn>Programs</button></li>
+                    </ul>
+
+                    <div class="filter-select-box">
+                        <button class="filter-select " data-select>
+                            <div class="select-value" data-select-value>Select Category</div>
+
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+                        </button>
+
+                        <ul class="select-list">
+                            <li class="select-item"><button data-select-item>All</button></li>
+                            <li class="select-item"><button data-select-item>Sports</button></li>
+                            <li class="select-item"><button data-select-item>Applications</button></li>
+                            <li class="select-item"><button data-select-item>Web Development</button></li>
                         </ul>
                     </div>
-                </li>
-                <li>
-                    <a href="">Focus</a>
-                    <div class="dropdown">
-                        <ul>
-                            <li>
-                                <a href="">Safety</a>
-                            </li>
-                            <li>
-                                <a href="">Opportunity</a>
-                            </li>
-                            <li>
-                                <a href="">Reporting</a>
-                            </li>
-                            <li>
-                                <a href="">Recognition</a>
-                            </li>
-                            <li>
-                                <a href="">Equity</a>
-                            </li>
-                    </div>
-                </li>
-                <li>
-                    <a href="">Opportunities</a>
-                    <div class="dropdown">
-                        <ul>
-                            <li>
-                                <a href="">Reporting Fellowships <i class="fas fa-caret-right"></i></a>
-                                <div class="dropdown2">
-                                    <ul>
-                                        <li>
-                                            <a href="">Elizabeth Neuffer Fellowship</a>
+
+                    <ul class="project-list">
+                        
+
+                        <li class="project-item active" data-filter-item data-category="eco-edu">
+                            <a href="#">
+                                <div class="project-verification">
+                                    <div class="veri-texts">
+                                        <h2>"Eco-Edu" project</h2>
+                                        <p>
+                                            At the Student Empowerment Program of Zorig foundation, the largest NGO in Mongolia, our team implemented the Eco-Edu Project, which aimed to improve waste management across 10 secondary schools. Over six months, we installed recycling stations in all 10 schools, led 184 volunteers from their eco-clubs, and recycled 3 tons of plastic, 1,084 glass bottles, and 84 kg of batteries. The project reached 34,000+ students by promoting proper waste sorting and recycling, and we secured 14 million MNT in funding from the MCS Coca-Cola Group.
+                                        </p>
+                                    </div>
+    
+                                    <div class="veri-images">
+                                        <div class="veri-images1">
+                                            <img src="portfolio-image/ECOEDU (1)/Frame 24.png" alt="" width="200px" height="auto">
+                                            <img src="portfolio-image/ECOEDU (1)/Frame 23.png" alt="" width="200px" height="auto">
+                                            <img src="portfolio-image/ECOEDU (1)/Frame 21.png" alt="" width="200px" height="auto">
+                                            <img src="portfolio-image/ECOEDU (1)/Frame 22.png" alt="" width="200px" height="auto">
+                                        </div>
+                                        <div class="veri-images1">
+                                            <img src="portfolio-image/ECOEDU (1)/Frame 22.png" alt="" width="200px" height="auto">
+                                            <img src="portfolio-image/ECOEDU (1)/Frame 20.png" alt="" width="200px" height="auto">
+                                            <img src="portfolio-image/ECOEDU (1)/Frame 19.png" alt="" width="200px" height="auto">
+                                            <img src="portfolio-image/ECOEDU (1)/Frame 22-1.png" alt="" width="200px" height="auto">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                
+                                <div class="veri-style">
+                                    <div class="veri-images2">
+                                        <img src="portfolio-image/ECOEDU (4)/Frame 49.png" alt="" width="400px" height="auto">
+                                    </div>
+                                    <div class="veri-texts">
+                                        <h3>Recycling stations</h3>
+                                        <p>
+                                            We also installed public recycling stations in each participating secondary school to ensure the project’s long-term sustainability. These stations allowed students to continue sorting and recycling waste independently, extending the project’s impact well beyond our direct involvement.
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                                <div class="veri-texts1">
+                                    <h3>Collaboration with "MCS coca-cola"</h3>
+                                    <p>
+                                        With support from the MCS Coca-Cola Group, 28 volunteers worked at the one of the biggest music festivals, Zunii Zugaa, installing 40 sorting bins and recycling 91 kg of cans and 24 kg of plastics. Additionally, At the 3x3 World Championship, 20 volunteers operated for three days and recycled 35 kg of plastics and 12 kg of cans.
+                                    </p>
+                                </div>
+                                <div class="veri-images">
+                                    <div class="veri-images1">
+                                        <img src="portfolio-image/ECOEDU (2)/Frame 26.png" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/ECOEDU (2)/frame21.png" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/ECOEDU (2)/frame23.png" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/ECOEDU (2)/frame25.png" alt="" width="200px" height="auto">
+                                    </div>
+                                    <div class="veri-images1">
+                                        <img src="portfolio-image/ECOEDU (3)/Frame 26.png" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/ECOEDU (3)/frame12.png" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/ECOEDU (3)/frame13.png" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/ECOEDU (3)/frame14.png" alt="" width="200px" height="auto">
+                                    </div>
+                                </div>
+                                <div class="veri-texts1">
+                                    <h3>Project closing ceremony</h3>
+                                    <p>
+                                        At the project’s closing ceremony, five representative students from the top-attendance class of each school visited the Zorig Foundation, reviewed their environmental impact results, and received their certificates. Afterward, we visited the main “MCS Coca-Cola” factory, where students were introduced to the company’s work environment and environmental policies.                                    </p>
+                                </div>
+                                <div class="veri-images">
+                                    <div class="veri-images1">
+                                        <img src="portfolio-image/ECOEDU (4)/Frame 27.png" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/ECOEDU (4)/frame30.png" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/ECOEDU (4)/Frame 44.png" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/ECOEDU (4)/Frame 43.png" alt="" width="200px" height="auto">
+                                    </div>
+                                    
+                                </div>
+
+                            </a>
+                        </li>
+                        <li class="project-item active" data-filter-item data-category="she can code">
+                            <a href="#">
+                                
+                                <div class="veri-texts">
+                                    <h2>"She Can Code" program </h2>
+                                    <p>
+                                        Being the only girl at my coding academy motivated me to found She Can Code, a seven-week program dedicated to bringing more girls into the tech space. I trained 20 girls from beginner level to junior front-end developers.
+                                    </p>
+                                </div>
+
+                                <div class="veri-images">
+                                    <div class="veri-images1">
+                                        <img src="portfolio-image/SCC/Frame 109.png" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/SCC/frame 23.png" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/SCC/Frame 24.png" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/SCC/frame9.png" alt="" width="200px" height="auto">
+                                    </div>
+                                </div>
+
+                                <div class="veri-texts1">
+                                    <h3>Guest Speakers</h3>
+                                    <p>
+                                        Each week, we have the opportunity to meet leading experts in the tech field, learn from their experiences, gain invaluable insights, and prepare for our next steps in the industry.                                    </p>
+                                </div>
+                                <div class="veri-images">
+                                    <div class="veri-images1">
+                                        <img src="portfolio-image/guest speaker/7927.png" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/guest speaker/7931.png" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/guest speaker/7928.png" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/guest speaker/7930.png" alt="" width="200px" height="auto">
+                                    </div>
+                                </div>
+                                <div class="veri-texts1">
+                                    <h3>Office Tours</h3>
+                                    <p>
+                                        During the program, we had the opportunity to visit two of Mongolia’s leading tech companies: Mezorn LLC and ONDO. At Mezorn, we explored their innovative projects and learned about their approach to software development and technology solutions. At ONDO, we gained insight into how a fast-growing platform operates, their strategies for user engagement, and how they bring locally developed technology to the global market. These visits provided us with valuable first-hand exposure to the tech industry in Mongolia.                                </div>
+                                <div class="veri-images">
+                                    <div class="veri-images1">
+                                        <img src="portfolio-image/Office tour/frame187.png" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/Office tour/Frame 183.png" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/Office tour/Frame 182.png" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/Office tour/Frame 186.png" alt="" width="200px" height="auto">
+                                    </div>
+                                    <div class="veri-images1">
+                                        <img src="portfolio-image/mezorn/frame125.png" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/mezorn/Frame 124.png" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/mezorn/Frame 122.png" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/mezorn/Frame 121.png" alt="" width="200px" height="auto">
+                                    </div>
+                                </div>
+                                <div class="veri-texts2">
+                                    <h3>Program's Closing Ceremony</h3>
+                                    <p>
+                                        On August 16, 2024, we celebrated the closing ceremony of our program, marking the culmination of weeks of learning, collaboration, and growth. Participants showcased their achievements, reflected on their journey, and celebrated the knowledge and skills they had gained.                                    
+                                    </p>
+                                     </div>
+                                <div class="veri-images">
+                                    <div class="veri-images1">
+                                        <img src="portfolio-image/closing/f1.png" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/closing/f2.png" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/closing/f3.png" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/closing/f4.png" alt="" width="200px" height="auto">
+                                    </div>
+                                    <div class="veri-images1">
+                                        <img src="portfolio-image/closing/f6.png" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/closing/f7.png" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/closing/f8.png" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/closing/f9.png" alt="" width="200px" height="auto">
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="codely">
+                            <a href="#">
+                                
+                                <div class="veri-texts">
+                                    <h2>Codely Coding Academy</h2>
+                                    <p>
+                                        Codely Coding Academy is a non-profit organization that provides free coding education to learners of all backgrounds. We offer four core programs—She Can Code, MonPy, CatAI, and C++. All programs, except She Can Code, maintain a 50/50 gender ratio, ensuring equal participation of boys and girls while actively supporting girls’ engagement and passion in the tech field.
+                                    </p>
+                                </div>
+                                <section class="clients">
+                                    <ul class="clients-list has-scrollbar">
+                                        <li class="clients-item">
+                                            <a href="#"><img class="codely" src="portfolio-image/CODLY LOGO (1).png" alt="logo" width="100%" height="auto"></a>
                                         </li>
-                                        <li>
-                                            <a href="">¡Exprésate! LGBTQI+ and Women’s Rights Reporting Initiative</a>
+                
+                                        <li class="clients-item">
+                                            <a href="#"><img class="scc" src="portfolio-image/SCC LOGO (1).png" alt="logo" width="200px" height="auto"></a>
                                         </li>
-                                        <li>
-                                            <a href="">Reporting from Ukraine's Unseen Frontlines</a>
+                
+                                        <li class="clients-item">
+                                            <a href="#"><img class="monpy" src="portfolio-image/Frame 567.png" alt="logo" width="150px" height="auto" ></a>
                                         </li>
-                                        <li>
-                                            <a href="">Round earth media</a>
+                
+                                        <li class="clients-item">
+                                            <a href="#"><img class="catai" src="portfolio-image/CATAI LOGO.png" alt="logo" width="132px" height="auto"></a>
                                         </li>
+                
+                                        <li class="clients-item">
+                                            <a href="#"><img class="cc" src="portfolio-image/c++.png" alt="logo" width="110px" height="aut"></a>
+                                        </li>
+                                        
                                     </ul>
+                                </section>
+                                <div class="veri-texts1">
+                                    <h3>"She Can Code" program</h3>
+                                    <p>
+                                        She Can Code is a girls-only program designed to provide high-quality coding education and inspire girls to pursue their passion for technology. The program selects 20 participants and runs for two months, covering HTML, CSS, JavaScript, React, and the fundamentals of front-end development.                                    </p>
                                 </div>
-                            </li>
-                            <li>
-                                <a href="">Grants & Funds <i class="fas fa-caret-right"></i></a>
-                                <div class="dropdown2">
-                                    <ul>
-                                        <li>
-                                            <a href="">Kari Howard Fund for Narrative Journalism</a>
-                                        <li>
-                                            <a href="">Kim Wall Memorial Fund</a>
-                                        </li>
-                                        <li>
-                                            <a href="">Reproductive Health, Rights, and Justice in the Americas</a>
-                                        </li>
-                                    </ul>
+
+                                <div class="veri-images">
+                                    <div class="veri-images1">
+                                        <img src="portfolio-image/SCC/Frame 109.png" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/SCC/frame 23.png" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/SCC/Frame 24.png" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/SCC/frame9.png" alt="" width="200px" height="auto">
+                                    </div>
                                 </div>
-                            </li>
-                            <li>
-                                <a href="">Gwen Ifill Mentorship Program</a>
-                            </li>
-                            <li>
-                                <a href="">Past Programs</a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li>
-                    <a href="">Safety</a>
-                    <div class="dropdown">
-                        <ul>
-                            <li>
-                                <a href="">Emergency assistance <i class="fas fa-caret-right"></i></a>
-                                <div class="dropdown2">
-                                    <ul>
-                                        <li>
-                                            <a href="">Emergency fund for women Journalists</a>
-                                        </li>
-                                        <li>
-                                            <a href="">Alex Duval Smith memorial fund</a>
-                                        </li>
-                                    </ul>
+
+                                <div class="veri-texts1">
+                                    <h3>"MonPy" program</h3>
+                                    <p>
+                                        MonPy is a one-month foundational program that equips 20 youth with strong Python programming skills, maintaining a 50/50 gender ratio. Participants not only learn coding basics but also explore practical applications such as automation and data analysis.                                   
+                                     </p>
                                 </div>
-                            </li>
-                            <li>
-                                <a href="">Hostile environment training</a>
-                            </li>
-                            <li>
-                                <a href="">Online abuse and harassment</a>
-                            </li>
-                            <li>
-                                <a href="">Coalition against online harassment</a>
-                            </li>
-                            <li>
-                                <a href="">Newsroom safety across America</a>
-                            </li>
-                            <li>
-                                <a href="">Next gen safety trainers</a>
-                            </li>
-                            <li>
-                                <a href="">Guides and reports <i class="fas fa-caret-right"></i></a>
-                                <div class="dropdown2">
-                                    <ul>
-                                        <li>
-                                            <a href="">Emergency fund for women Journalists</a>
-                                        </li>
-                                        <li>
-                                            <a href="">Alex Duval Smith memorial fund</a>
-                                        </li>
-                                    </ul>
+                                <div class="veri-images">
+                                    <div class="veri-images1">
+                                        <img src="portfolio-image/monpy./Frame 572.png" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/monpy./Frame 571.png" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/monpy./Frame 570.png" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/monpy./Frame 11.png" alt="" width="200px" height="auto">
+                                    </div>
                                 </div>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li>
-                    <a href="">Reporting</a>
-                </li>
-                <li>
-                    <a href="">Community</a>
-                </li>
-                <li>
-                    <a href="">Awards</a>
-                    <div class="dropdown">
-                        <ul>
-                            <li>
-                                <a href="">Anja Niedringhaus Award</a>
-                            </li>
-                            <li>
-                                <a href="">Courage in Journalism Awards</i></a>
-                            </li>
-                            <li>
-                                <a href="">Gwen Ifill Award</a>
-                            </li>
-                            <li>
-                                <a href="">Annenberg Justice for Women Journalists Award</a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-            <div class="search">
-                <p>Search <i class="bi bi-search"></i></p>
-            </div>
-            <div class="button">
-                <p>DONATE</p>
-            </div>
+                                <div class="veri-texts1">
+                                    <h3>"CatAI" program</h3>
+                                    <p>
+                                        CatAI is a one-month program designed to provide fundamental knowledge of artificial intelligence. The curriculum includes introductory and intermediate machine learning, validation methods, XGBoost, CatBoost, deep learning, neural networks, and computer vision. Like other programs, it upholds a 50/50 gender ratio. CatAI is currently in development and is scheduled to launch in December 2025.                                   
+                                     </p>
+                                </div>
+                                
+                                <div class="veri-texts1">
+                                    <h3>C++ workshops</h3>
+                                        <p>
+                                            The C++ Workshop is a one-day, open-to-all event where participants learn the differences between tech-related professions, various programming languages, and are introduced to the basics of C++. They write their first lines of code and gain guidance on the next steps in their tech journey. This workshop also maintains a 50/50 gender ratio.                                            
+                                        </p>
+                                    <div class="veri-images1">
+                                        <img src="portfolio-image/C++/Frame 567.png" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/C++/workshop_-1.png" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/C++/workshop_-2.png" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/C++/workshop_.png" alt="" width="200px" height="auto">
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="sports">
+                            <a href="#">
+                                
+                                <div class="veri-texts">
+                                    <h2>My Table Tennis Journey </h2>
+                                    <p>
+                                    </p>
+                                </div>
+                                <div class="veri-style">
+                                    <div class="veri-images2">
+                                        <img src="portfolio-image/sports/f1.jpg" alt="" width="300px" height="auto">
+                                    </div>
+                                    <div class="veri-texts">
+                                        <p>
+                                            I began playing table tennis at six, without knowing it would become the quiet teacher behind my discipline and resilience. The sport has shaped the way I confront obstacles, refine my focus, and carry myself beyond the court.
+                                        </p>
+                                        <p>
+                                            My competitive journey began nationally in 2017, and by 2018, I found myself representing my skills on the international stage—a shift that transformed both my mindset and ambition.
+                                        </p>
+                                        <p>
+                                            Thirteen years into my journey, I now compete on the national team, hold a national ranking of 3rd, am a five-time national champion, and have earned the Sports Master degree.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="veri-texts-2">
+                                    <h3>National competitions</h3>
+                                    <p>
+                                        - Mongolian Youth Sports Game 2023- Bronze
+                                    </p>
+                                    <p>                  
+                                        - Mongolian Sports Game 2025 - Bronze                     
+                                    </p>
+                                    <p>
+                                       - National Table Tennis Championship (2018 - 2025): 5 Gold, 1 Silver, 3 Bronze
+                                    </p>
+                                    <p>
+                                        - Ulaanbaatar Capital City Championship (2017 - 2025): 4 Gold, 2 Silver, 5 Bronze
+                                    </p>
+                                    <p>
+                                        - Bayangol District Championship (2017 - 2021): 2 Gold, 2 Silver, 1 Bronze
+                                    </p>
+                                    <p>
+                                        - Khan-Uul District Championship (2022 - 2024): 3 Gold
+                                    </p>
+                                </div>
+
+                                <div class="veri-images">
+                                    <div class="veri-images1">
+                                        <img src="portfolio-image/sports/f2.jpg" alt="" width="200px" height="150px">
+                                        <img src="portfolio-image/sports/f3.JPG" alt="" width="200px" height="150px">
+                                        <img src="portfolio-image/sports/f9.JPEG" alt="" width="200px" height="150px">
+                                        <img src="portfolio-image/sports/f13.JPG" alt="" width="200px" height="150px">
+                                    </div>
+                                </div>
+                                <div class="veri-texts-2">
+                                    <h3>International competitions</h3>
+                                    <p>
+                                        2018 — East Asian Table Tennis Championship, Shanghai, China: 9th place (Singles)
+                                    </p>
+                                    <p>                                        
+                                        2019 — East Asian Table Tennis Championship, Tokyo, Japan: Semifinalist (Team)
+                                    </p>
+                                    <p>
+                                        2022 — East Asian Friendly Table Tennis Championship: Semifinalist (Singles)
+                                    </p>
+                                    <p>
+                                        2023 — East Asian Youth Games, Ulaanbaatar, Mongolia: Quarterfinalist (Doubles)                                    
+                                    </p>
+                                </div>
+
+                                <div class="veri-images">
+                                    <div class="veri-images1">
+                                        <img src="portfolio-image/sports/f5.JPG" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/sports/f6.JPEG" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/sports/f8.JPEG" alt="" width="200px" height="auto">
+                                        <img src="portfolio-image/sports/f7.JPEG" alt="" width="200px" height="auto">
+                                    </div>
+                                </div>
+
+
+                                
+                            </a>
+                        </li>
+                        <li class="project-item active" data-filter-item data-category="internships">
+                            <a href="#">
+                                <div class="project-verification">
+                                    <div class="veri-texts">
+                                        <h2>Youth Sustainability Corps</h2>
+                                        <p class="dif">
+                                            At Youth Sustainability Corps, I worked as a Digital Transformation Intern, where I built the YSC app and website. Beyond software development, I contributed to the project’s overall structure—designing the website architecture, shaping the UI/UX, and helping create and refine the content. 
+                                        </p>
+                                        <p>Some of the key projects I worked on include:</p>
+                                    </div>
+                                    <div class="veri-style-2">
+                                        <div class="veri-images2">
+                                            <img src="portfolio-image/ysc/f1.jpg" alt="" width="300px" height="auto">
+                                        </div>
+                                        <div class="veri-texts">
+                                            <p>
+                                                YSC Academy offers educational content that goes beyond the school curriculum, preparing students for real-life challenges. Its programs focus on sustainable development, digital skills, digital literacy, and essential soft skills. The academy provides equal learning opportunities to students across all provinces of Mongolia, regardless of location, finances, or background.                                        
+                                            </p>
+                                            <p>
+                                                As part of this mission, I co-initiated the YSC Community, a network that connects alumni and current participants through year-based groups, strengthening communication, mentorship, and long-term engagement within YSC.                                        
+                                            </p>
+                                            <div class="button">
+                                               <a href="https://www.youthcorps.mn/en/home/">Link: Youthcorps.mn</a>
+                                               <i class="bi bi-box-arrow-up-right"></i>
+                                               
+                                               
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="veri-texts-2">
+                                        <p>
+                                            I also developed the YSC Score Leaderboard, which evaluates each participant’s involvement and activities—an important system used to select the top five students for a study trip to Europe. Previously, all scoring was done manually in Excel, so I fully digitized the scoring process and built the leaderboard system myself.                                   
+                                        </p>
+                                        <p>
+                                            After six months of development, we officially launched the YSC website and application on Europe Day 2025. Our current focus is expanding the platform internationally and creating a full Mongolian Traditional Script version of the digital system.
+                                        </p>
+                                    </div>
+    
+                                    <div class="veri-images">
+                                        <div class="veri-images1">
+                                            <img src="portfolio-image/ysc/f2.JPG" alt="" width="200px" height="150px">
+                                            <img src="portfolio-image/ysc/f3.JPG" alt="" width="200px" height="150px">
+                                            <img src="portfolio-image/ysc/f5.JPG" alt="" width="200px" height="150px">
+                                            <img src="portfolio-image/ysc/f6.JPG" alt="" width="200px" height="150px">
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="project-verification">
+                                    <div class="veri-texts-2">
+                                        <h2>American Space, Ulaanbaatar</h2>
+                                        <p class="dif">
+                                            I was selected as one of 11 interns in the “Student Internship Program” and completed a six-month internship, where I learned everything from proposal writing and project implementation to organizing events and workshops. During this period, I served as the leader of the Lego Mindstorms Club and the coordinator of the Young Engineers Program.                                    </p>
+                                        
+                                    </div>
+                                    <div class="veri-style-2">
+                                        <div class="veri-images2">
+                                            <img src="portfolio-image/sip/f1.jpg" alt="" width="300px" height="auto">
+                                        </div>
+                                        <div class="veri-texts">
+                                            <h3>Lego Mindstorms Club</h3>
+                                            <p>
+                                                Our team organized three Creative Building workshops for youth aged 8–15, guiding students to build Lego projects that reflected their personalities and STEM interests. We also led two STEMLINGO: In the Driver’s Seat workshops, where participants built Arduino-based backup sensors and learned the basics of self-driving technology.
+                                            </p>
+                                            <h3>Young Engineers Program </h3>
+                                            <p>
+                                                I coordinated this three-month program designed to enhance high school students’ engineering knowledge. I invited 10 engineers to mentor participants, helping spark curiosity and deeper engagement in STEM fields.
+                                            </p>
+                                            <div class="button">
+                                               <a href="https://www.youngengineersmongolia.com/">Link: Young Engineers Mongolia </a>
+                                               <i class="bi bi-box-arrow-up-right"></i>
+                                            </div>
+                                            <div class="button">
+                                                <a href="https://www.facebook.com/profile.php?id=100063507763456">Link: Lego Mindstorms Club</a>
+                                                <i class="bi bi-box-arrow-up-right"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="veri-images">
+                                        <div class="veri-images1">
+                                            <img src="portfolio-image/sip/f1.png" alt="" width="200px" height="150px">
+                                            <img src="portfolio-image/sip/f4.jpg" alt="" width="200px" height="150px">
+                                            <img src="portfolio-image/sip/g3.png" alt="" width="200px" height="150px">
+                                            <img src="portfolio-image/sip/IMG_0375.JPG" alt="" width="200px" height="150px">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="project-verification">
+                                    <div class="veri-texts-2">
+                                        <h2>Erxes INC</h2>
+                                        <p class="dif">
+                                            At Erxes Academy, I worked as a Project Development Intern, where I co-developed an educational curriculum that combined college preparation with foundational coding skills. During this internship, I also learned to create and integrate payment gateways and processors, strengthening my understanding of backend systems and real-world application development.                 
+                                        </p>
+                                        <div class="button">
+                                            <a href="https://unread.today/c/spotligh-erxes-academy">Link: Erxes Academy</a>
+                                            <i class="bi bi-box-arrow-up-right"></i>
+                                         </div>                                    
+                                    </div>
+                                    
+                                    <div class="veri-images">
+                                        <div class="veri-images1">
+                                            <img src="portfolio-image/erxes/3.jpg" alt="" width="200px" height="150px">
+                                            <img src="portfolio-image/erxes/2.jpg" alt="" width="200px" height="150px">
+                                            <img src="portfolio-image/erxes/4.jpg" alt="" width="200px" height="150px">
+                                            <img src="portfolio-image/erxes/1.jpg" alt="" width="200px" height="150px">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="veri-texts-2">
+                                    <h2>Gerhub NGO</h2>
+                                    
+                                    <p class="dif">
+                                        At GerHub, I interned as a Website Developer and led the redevelopment of the organization’s 2.0 website as part of its rebranding. Through this work, I gained experience in stabilizing API integrations, improving performance, and managing URL routing to ensure a more reliable and user-friendly platform.                                   
+                                     </p>
+                                </div>
+                                <a href="https://www.gerhub.org/">
+                                    <figure class="project-img">
+                                        <div class="project-item-icon-box">
+                                            <ion-icon name="eye-outline"></ion-icon>
+                                        </div>
+    
+                                        <img src="https://static.wixstatic.com/media/868d9a_4ad6c50073974499be99901756346d83~mv2.jpg/v1/fill/w_2688,h_1322,al_c,q_90,enc_avif,quality_auto/868d9a_4ad6c50073974499be99901756346d83~mv2.jpg" alt="orizon" loading="lazy">
+                                    </figure>
+                                    <div class="button">
+                                        <h3 class="project-title">Gerhub's website</h3>
+                                        <i class="bi bi-box-arrow-up-right"></i>
+                                    </div>
+                                    <p class="project-category">Web Development</p>
+                                </a>                
+                            </a>
+                        </li>
+                        <li class="project-item active" data-filter-item data-category="programs">
+                            <a href="#">
+                                <div class="project-verification-2">
+                                    <div class="veri-texts">
+                                        <h2>Students Empowerment Program </h2>
+                                        <div class="button">
+                                            <a href="https://www.zorigsan.mn/">Zorig Foundation</a>
+                                            <i class="bi bi-box-arrow-up-right"></i>
+                                         </div>  
+                                         <p class="dif">
+                                            I was selected as one of 20 participants from a pool of 700+ applicants for the Student Empowerment Program, which supports secondary school students in deepening their understanding of democracy and strengthening civic engagement.                                     
+                                        </p>
+                                    </div>
+                                    <div class="veri-style">
+                                        <div class="veri-images2">
+                                            <a href="https://www.facebook.com/photo.php?fbid=994366092720425&set=pb.100064411310571.-2207520000&type=3">
+                                                <img src="portfolio-image/zorig/IMG_4965.png" alt="" width="400px" height="auto">
+                                            </a>
+                                        </div>
+                                        <div class="veri-texts-3">
+                                            <p>
+                                                Over eight months, the program invited leading experts from various fields to speak on topics such as democracy, civic participation, sustainability, project development, gender studies, disability inclusion, and more.                                        </p>
+                                            <p>
+                                                After the initial two months of training, we formed teams to develop and implement civic-related projects. My team created the Eco-Edu initiative, and our project was awarded the title of “Best Project.”                                        </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="veri-images">
+                                        <div class="veri-images1">
+                                            <img src="portfolio-image/zorig/1.jpg" alt="" width="200px" height="150px">
+                                            <img src="portfolio-image/zorig/IMG_6474.JPG" alt="" width="150px" height="150px">
+                                            <img src="portfolio-image/zorig/3.png" alt="" width="220px" height="150px">
+                                            <img src="portfolio-image/zorig/certificate.JPG" alt="" width="230px" height="150px">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="project-verification-2">
+                                    <div class="veri-texts">
+                                        <h2>Young Novel Engineers</h2>
+                                        <div class="button">
+                                            <a href="https://www.gerhub.org/gerude">Gerude, Gerhub</a>
+                                            <i class="bi bi-box-arrow-up-right"></i>
+                                         </div>  
+                                    </div>
+                                    <div class="veri-style">
+                                        <div class="veri-images2">
+                                            <img src="portfolio-image/yne/3.jpg" alt="" width="400px" height="auto">
+                                        </div>
+                                        <div class="veri-texts-3">
+                                            <p>
+                                                I was selected as one of 15 participants for the Young Novel Engineer (YNE) program, where we spent a week at GerHub from 9 a.m. to 5 p.m., developing our self-expression, soft skills, and project development abilities.
+                                            </p>
+                                            <p>
+                                                During the program, we formed teams to design innovative solutions. Our team created Eco-Cup, a fully recyclable bioplastic cup made from tree resin and paper. The project was awarded the “Best Project” title.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="veri-images">
+                                        <div class="veri-images1">
+                                            <img src="portfolio-image/yne/1.jpg" alt="" width="200px" height="150px">
+                                            <img src="portfolio-image/yne/2.jpg" alt="" width="200px" height="150px">
+                                            <img src="portfolio-image/yne/3.jpg" alt="" width="200px" height="150px">
+                                            <img src="portfolio-image/yne/4.JPG" alt="" width="200px" height="150px">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="project-verification-2">
+                                    <div class="veri-texts">
+                                        <h2>"Teen Khuraldai" National Youth Conference</h2>
+                                        <div class="button">
+                                            <a href="https://www.youthcorps.mn/en/teen-khuraldai-2025/">Youth Sustainability Corps</a>
+                                            <i class="bi bi-box-arrow-up-right"></i>
+                                         </div>  
+                                    </div>
+                                    <div class="veri-style">
+                                        <div class="veri-images2">
+                                            <img src="portfolio-image/teen khuraldai/1.jpg" alt="" width="400px" height="auto">
+                                        </div>
+                                        <div class="veri-texts-3">
+                                            <p>
+                                                I was selected from a pool of 1200 applicants to represent Ulaanbaatar and placed in the Onkhonud tribe. Throughout the conference, I collaborated with youth from across Mongolia to address challenges in environmental protection, cultural preservation, and digital development.                                            </p>
+                                            <p>
+                                                I guided our team in identifying challenges around cultural heritage and proposed a digital app initiative to preserve and promote Mongolian traditions. Under my leadership, our tribe’s project earned the “Most Initiative” title.                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="veri-images">
+                                        <div class="veri-images1">
+                                            <img src="portfolio-image/teen khuraldai/5.JPG" alt="" width="200px" height="150px">
+                                            <img src="portfolio-image/teen khuraldai/2.JPG" alt="" width="200px" height="150px">
+                                            <img src="portfolio-image/teen khuraldai/4.JPG" alt="" width="200px" height="150px">
+                                            <img src="portfolio-image/teen khuraldai/202412031623211016 3.JPG" alt="" width="200px" height="150px">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="veri-texts">
+                                    <h2>Grow with Google</h2>
+                                    <div class="button">
+                                        <a href="https://www.linkedin.com/company/gwg-mongolia/posts/?feedView=all">Google</a>
+                                        <i class="bi bi-box-arrow-up-right"></i>
+                                     </div>  
+                                </div>
+                                <div class="veri-style">
+                                    <div class="veri-images2">
+                                        <img src="portfolio-image/gwg.jpg" alt="" width="400px" height="auto">
+                                    </div>
+                                    <div class="veri-texts-3">
+                                        <p>
+                                            At 16, I was the youngest scholar selected for the Grow with Google Mongolia program. Over three months, I completed English-based Coursera coursework, 40 hours of soft-skills training, and 30 hours of internship practice. Through this program, I strengthened my technical skills, professional English, and workplace readiness.                                        </p>
+                                        
+                                    </div>
+                                </div>
+                                <div class="gwg-certificate">
+                                    <div class="certificate">
+                                        <img src="portfolio-image/gwg-cert.png" alt="" width="300px" height="200px">
+                                        <div class="button">
+                                            <a href="https://www.coursera.org/account/accomplishments/specialization/SM6EX2ECK1WO">Show Credentials  </a>
+                                            <i class="bi bi-box-arrow-up-right"></i>
+                                         </div> 
+                                    </div>
+                                    <div class="certificate">
+                                        <img src="portfolio-image/gwg-cert.JPG" alt="" width="300px" height="200px">
+                                        <div class="button">
+                                            <a href="https://www.coursera.org/account/accomplishments/specialization/SM6EX2ECK1WO">Program's certificate</a>
+                                            <i class="bi bi-box-arrow-up-right"></i>
+                                         </div> 
+                                    </div>
+                                </div>
+                                
+                             
+
+
+                                
+                            </a>
+                        </li>
+
+                        
+                    </ul>
+                </section>
+            </article>
+
+            <article class="blog " data-page="blog">
+                <header>
+                    <h2 class="h2 article-title">Blog</h2>
+                </header>
+
+                <section class="blog-posts">
+                    <ul class="blog-posts-list">
+                        <li class="blog-post-item">
+                            <a href="#">
+                                    <figure class="blog-banner-box">
+                                        <img src="https://i.postimg.cc/DysCZrWs/blog-1.jpg" alt="Design conferences in 2024" loading="lazy">
+                                    </figure>
+
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <p class="blog-category">Design</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2024-02-23">Feb 23, 2024</time>
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">Design conferences in 2024</h3>
+                                    <p class="blog-text">In 2024, several exciting design conferences are set to take place, offering opportunities for professionals and enthusiasts to connect, learn, and share innovative ideas.</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="blog-post-item">
+                            <a href="#">
+                                <figure class="blog-banner-box">
+                                    <img src="https://i.postimg.cc/QC7qFDMs/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                                </figure>
+
+
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <p class="blog-category">Design</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2024-01-29">Jan 29, 2024</time>
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+                                    <p class="blog-text">When it comes to typography, choosing the right font is essential for effective design. In this article, I'll bring a brief overview of some of the best fonts that every designer should consider incorporating into their toolkit.</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="blog-post-item">
+                            <a href="#">
+                                <figure class="blog-banner-box">
+                                    <img src="https://i.postimg.cc/W1T71QcL/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                                </figure>
+
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <p class="blog-category">Design</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2023-12-20">Dec 20, 2023</time>
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">Design digest #80</h3>
+                                    <p class="blog-text">Hello, my friends. In this Design Digest, I'll show you a curated collection of the latest trends, insights, and innovations in the design world. This edition highlights key themes and discussions that are shaping the future of design.</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="blog-post-item">
+                            <a href="#">
+                                <figure class="blog-banner-box">
+                                    <img src="https://i.postimg.cc/2S0n8yxh/blog-4.jpg" alt="2023 UI interactions" loading="lazy">
+                                </figure>
+
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <p class="blog-category">Design</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2023-11-29">Nov 29, 2023</time>
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">2023 UI interactions</h3>
+                                    <p class="blog-text">As we move into 2024, 2023 was marked by the rapidly evolution of the landscape of UI interactions, driven by advancements in technology and user expectations. Dive with me in this text to see the main areas changed in this year.</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="blog-post-item">
+                            <a href="#">
+                                <figure class="blog-banner-box">
+                                    <img src="https://i.postimg.cc/YCCmVkw9/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                                </figure>
+
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <p class="blog-category">Design</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2023-11-12">Nov 12, 2023</time>
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+                                    <p class="blog-text">In the realm of design, spacing is often an overlooked yet crucial element that can significantly impact the overall aesthetic and functionality of a composition. This post will emphasize the importance of white space, margins, and padding in creating visually appealing and effective designs.</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="blog-post-item">
+                            <a href="#">
+                                <figure class="blog-banner-box">
+                                    <img src="https://i.postimg.cc/zBCBvP16/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                                </figure>
+
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <p class="blog-category">Design</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2023-10-20">Oct 20, 2023</time>
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">Design digest #79</h3>
+                                    <p class="blog-text">Hi, my friends. In this Design Digest I'll focus in the tools and resources that we use daily in our projects. Also, I'll include examples of software recommendations, online courses, and design communities that foster collaboration and learning.</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <article class="contact " data-page="contact">
+                <header>
+                    <h2 class="h2 article-title">Contact</h2>
+                </header>
+
+                <section class="mapbox" data-mapbox>
+                    <figure>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206891.2502228857!2d106.73706671209469!3d47.891532192678575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d96925be2b18aab%3A0xe606927864a1847f!2sUlaanbaatar!5e1!3m2!1sen!2smn!4v1764275270605!5m2!1sen!2smn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"                      width="400" height="300" loading="lazy"></iframe>
+                    </figure>
+                </section>
+
+                <section class="contact-form">
+                    <h3 class="h3 form-title">Contact Form</h3>
+
+                    <form action="#" class="form" data-form>
+                        <div class="input-wrapper">
+                            <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+                            <input type="email" name="email" class="form-input" placeholder="Email Address" required data-form-input>
+                        </div>
+
+                        <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input=""></textarea>
+
+                        <button class="form-btn" type="submit" disabled data-form-btn>
+                            <ion-icon name="paper-plane"></ion-icon>
+                            <span>Send Message</span>
+                        </button>
+                    </form>
+                </section>
+            </article>
         </div>
-    </div>
-    <div class="main">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-1">
-                    <div class="socials">
-                        <a href="https://www.facebook.com/IWMFpage"><p><i class="bi bi-facebook"></i></p></a>
-                        <a href=""><p><i class="bi bi-twitter"></i></p></a>
-                        <a href=""><p><i class="bi bi-instagram"></i></p></a>
-                        <a href=""><p><i class="bi bi-youtube"></i></p></a>
-                    </div>
-                </div>
-                <div class="col-md-11">
-                    <div class="content">
-                        <div class="slider">
-                            <img src="https://e1.nmcdn.io/iwmf/wp-content/uploads/2025/03/We_Are_IWMF_Social_Cover_FB-820x360p.png/v:1-width:1400-height:600-fit:cover/We_Are_IWMF_Social_Cover_FB-820x360p.png?signature=96a3c11c">
-                            <button>ABOUT US <i class="bi bi-arrow-right"></i></button>
-                        </div>
-                        <br>
-                        <div class="sections">
-                            <div class="box">
-                                <div class="img">
-                                    <img src="https://e1.nmcdn.io/iwmf/wp-content/uploads/2025/03/We_Are_IWMF_Social_Cover_FB-820x360p.png/v:1-width:1400-height:600-fit:cover/We_Are_IWMF_Social_Cover_FB-820x360p.png?signature=96a3c11c">
-                                </div>
-                                <div class="text1">
-                                    <p>ABOUT US</p>
-                                </div>
-                            </div>
-                            <div class="box">
-                                <div class="img">
-                                    <img src="https://e1.nmcdn.io/iwmf/wp-content/uploads/2025/06/yousra-e1751326254489.png/v:1-width:2400-height:1000-fit:cover/yousra-e1751326254489.png?signature=d3ea4688">
-                                </div>
-                                <div class="text2">
-                                    <p>2025 COURAGE AWARDS</p>
-                                </div>
-                            </div>
-                            <div class="box">
-                                <div class="img">
-                                    <img src="https://e1.nmcdn.io/iwmf/wp-content/uploads/2022/08/Erika-Schultz-by-Ramon-Dompor-2-scaled.jpg/v:1-width:1400-height:600-fit:cover/Erika-Schultz-by-Ramon-Dompor-2-scaled.jpg?signature=429ca540">
-                                </div>
-                                <div class="text3">
-                                    <p>SUPPORT JOURNALISM IN CRISIS</p>
-                                </div>
-                            </div>
-                            <div class="box">
-                                <div class="img">
-                                    <img src="https://www.iwmf.org/wp-content/uploads/2025/05/Screenshot-2025-05-05-at-8.32.44%E2%80%AFAM.png">
-                                </div>
-                                <div class="text4">
-                                    <p>2024 IMPACT REPORT</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="main2">
-                        <div class="ourfocus">
-                            <h2>Our Focus</h2>
-                            <p>Built to break barriers and serve the holistic needs of women and nonbinary journalists with equity, opportunity, recognition and safety.</p>
-                        </div>
-                        <div class="focuses">
-                            <div class="row1">
-                                <div class="box1">
-                                    <div class="img1">
-                                        <img src="https://e1.nmcdn.io/iwmf/wp-content/uploads/2023/02/WhatsApp-Image-2022-09-17-at-12.38.53-AM-e1676575824809.jpeg/v:1-width:400-height:400-fit:cover/WhatsApp-Image-2022-09-17-at-12.38.53-AM-e1676575824809.jpeg?signature=6d5b0df6">
-                                    </div>
-                                    <div class="title1">
-                                        <p>Safety</p>
-                                    </div>
-                                </div>
-                                <div class="box1">
-                                    <div class="img1">
-                                        <img src="https://e1.nmcdn.io/iwmf/wp-content/uploads/2023/02/242662162_4325491244194715_3063553921569790518_n.jpg/v:1-width:400-height:400-fit:cover/242662162_4325491244194715_3063553921569790518_n.jpg?signature=dbfa3b2b">
-                                    </div>
-                                    <div class="title2">
-                                        <p>Opportunity</p>
-                                    </div>
-                                </div>
-                                <div class="box1">
-                                    <div class="img1">
-                                        <img src="https://e1.nmcdn.io/iwmf/wp-content/uploads/2018/05/Debora-interviewing-a-former-combatant.-copy.jpg/v:1-width:400-height:400-fit:cover/Debora-interviewing-a-former-combatant.-copy.jpg?signature=45e583da">
-                                    </div>
-                                    <div class="title3">
-                                        <p>Reporting</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row2">
-                                <div class="box1">
-                                    <div class="img1">
-                                        <img src="https://e1.nmcdn.io/iwmf/wp-content/uploads/2023/10/1757306050-scaled.jpg/v:1-width:400-height:400-fit:cover/1757306050-scaled.jpg?signature=ec29ebe8">
-                                    </div>
-                                    <div class="title4">
-                                        <p>Recognition</p>
-                                    </div>
-                                </div>
-                                <div class="box1">
-                                    <div class="img1">
-                                        <img src="https://e1.nmcdn.io/iwmf/wp-content/uploads/2018/05/iwmf-pic-1-scaled.jpg/v:1-width:400-height:400-fit:cover/iwmf-pic-1-scaled.jpg?signature=67507baa">
-                                    </div>
-                                    <div class="title5">
-                                        <p>Equity</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="opportunity">
-                            <h2>Current Open Opportunities</h2>
-                            <p>The media is not truly free and representative without the equal voice of women and nonbinary people. Through our programs and grants we empower women and nonbinary journalists with the training, opportunities, and support to become leaders in the news industry.</p>
-                        </div>
-                        <div class="opportunities">
-                            <div class="row1">
-                                <div class="box1">
-                                    <div class="img1">
-                                        <img src="https://e1.nmcdn.io/iwmf/wp-content/uploads/2024/12/PHOTO-2023-06-16-11-26-19-Louisa-Loveluck.jpg/v:1-width:400-height:400-fit:cover/PHOTO-2023-06-16-11-26-19-Louisa-Loveluck.jpg?signature=88ae1242">
-                                    </div>
-                                    <div class="title6">
-                                        <p>Ukraine Reporting Grants</p>
-                                    </div>
-                                </div>
-                                <div class="box1">
-                                    <div class="img1">
-                                        <img src="https://miro.medium.com/v2/resize:fit:1024/1*116PzKXdc_2U7aKT99nHEQ.jpeg">
-                                    </div>
-                                    <div class="title6">
-                                        <p>The Lauren Brown Fellowship</p>
-                                    </div>
-                                </div>
-                                <div class="box1">
-                                    <div class="img1">
-                                        <img src="https://e1.nmcdn.io/iwmf/wp-content/uploads/2022/06/Kari-in-Cornwall-photo-by-Ben-Adler-e1657032885415.jpg/v:1-width:400-height:400-fit:cover/Kari-in-Cornwall-photo-by-Ben-Adler-e1657032885415.jpg?signature=861da41e">
-                                    </div>
-                                    <div class="title7">
-                                        <p>Kari Howard Fund</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row2">
-                                <div class="box1">
-                                    <div class="img1">
-                                        <img src="https://e1.nmcdn.io/iwmf/wp-content/uploads/2024/11/IMG_0355-scaled-e1731600752201.jpg/v:1-width:2400-height:1000-fit:cover/IMG_0355-scaled-e1731600752201.jpg?signature=3a169139">
-                                    </div>
-                                    <div class="title6">
-                                        <p>Newsroom Safety Across America</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="grid">
-                            <div class="column1">
-                                <div class="image">
-                                    <img src="https://e1.nmcdn.io/iwmf/wp-content/uploads/2020/04/BTS-team-shot.jpg/v:1-width:600-height:600-fit:cover/BTS-team-shot.jpg?signature=8c16a474">
-                                </div>
-                                <div class="text">
-                                    <h4>REPORTING</h4>
-                                    <p>Learn more about our grantees and fellows and their contributions to journalism.</p>
-                                </div>
-                            </div>
-                            <div class="column2">
-                                <div class="top">
-                                    <img src="https://opportunitydesk.org/wp-content/uploads/2016/11/iwmf.jpg">
-                                    <div class="text">
-                                        <h4>PROGRAMS</h4>
-                                    </div>
-                                </div>
-                                <div class="bottom">
-                                    <img src="https://e1.nmcdn.io/iwmf/wp-content/uploads/2018/05/48947969861_d369ee88c8_w.jpg/v:1-width:600-height:300-fit:cover/48947969861_d369ee88c8_w.jpg?signature=b3e1bab6">
-                                    <div class="text">
-                                        <h4>OUR AWARDS</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="ourfellows">
-                            <div class="fellows">
-                                <h2>Our Fellows</h2>
-                            </div>
-                            <div class="people-quotes">
-                                <div class="rw1">
-                                    <div class="person">
-                                        <div class="photo">
-                                            <img src="https://e1.nmcdn.io/iwmf/wp-content/uploads/2019/07/Mahima-Jain-Square.jpg/v:1-width:1200-height:1200-fit:cover/Mahima-Jain-Square.jpg?signature=90fd05e4">
-                                        </div>
-                                        <div class="name">
-                                            <h4>Mahima A.Jain</h4>
-                                        </div>
-                                    </div>
-                                    <div class="person">
-                                        <div class="photo">
-                                            <img src="https://e1.nmcdn.io/iwmf/wp-content/uploads/2023/08/Anjana-Pic-1-scaled-e1690988496437.jpg/v:1-width:1200-height:1200-fit:cover/Anjana-Pic-1-scaled-e1690988496437.jpg?signature=df2a60b7">
-                                        </div>
-                                        <div class="name">
-                                            <h4>Anjana Sankar</h4>
-                                        </div>
-                                    </div>
-                                    <div class="quote">
-                                        <div class="icon">
-                                            <i class="bi bi-quote"></i>
-                                        </div>
-                                        <div class="the-quote">
-                                            <p>Ever since I left the IWMF's HEFAT training, I haven't been able to stop thinking about how much I wish I'd learned this information sooner AND how critical it is to find a way to make this accessible to all journalists— especially women and nonbinary folks— as soon as possible. It's imperative to our work and safety.</p>
-                                        </div>
-                                        <div class="the-person">
-                                            <p>-Celeste Noche</p>
-                                            <p><span>Hostile Environment and First Aid Training Participant</span></p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="rw2">
-                                    <div class="quote">
-                                        <div class="icon">
-                                            <i class="bi bi-quote"></i>
-                                        </div>
-                                        <div class="the-quote">
-                                            <p>The Kim Wall grant opened doors in my career that I never thought would open for me. The grant gave me an opportunity to report in-depth on a story that I always wanted. I take pride in the opportunity that the Kim Wall Memorial Fund gave me and since I have received funding and skills opportunities that have enhanced my career to another level. Thank you, IWMF.</p>
-                                        </div>
-                                        <div class="the-person">
-                                            <p>-Bongani Siziba</p>
-                                            <p><span>2021 Kim Wall Memorial Fund Grantee</span></p>
-                                        </div>
-                                    </div>
-                                    <div class="person">
-                                        <div class="photo">
-                                            <img src="https://e1.nmcdn.io/iwmf/wp-content/uploads/2023/08/ChelseaCurtis_Headshot-2-e1693245499420.jpg/v:1-width:1200-height:1200-fit:cover/ChelseaCurtis_Headshot-2-e1693245499420.jpg?signature=78655c19">
-                                        </div>
-                                        <div class="name">
-                                            <h4>Chelsea Curtis</h4>
-                                        </div>
-                                    </div>
-                                    <div class="person">
-                                        <div class="photo">
-                                            <img src="https://e1.nmcdn.io/iwmf/wp-content/uploads/2023/04/Samantha.jpg/v:1-width:1200-height:1200-fit:cover/Samantha.jpg?signature=c2cb90c5">
-                                        </div>
-                                        <div class="name">
-                                            <h4>Samantha Paéz Guzman</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer">
-        <div class="background">
-            <img src="https://e1.nmcdn.io/iwmf/wp-content/uploads/2018/04/HEFAT10-1024x681.jpg/v:1-width:2400-height:1001-fit:cover/HEFAT10-1024x681.jpg?signature=9d5ceb2c">
-        </div>
-        <div class="textt">
-            <div class="titlee">
-                <h2>Be a Lifeline for #JournosInCrisis</h2>
-            </div>
-            <div class="desc">
-                <p>Now more than ever, journalists around the world face real dangers as a result of their reporting. Support us we continue to be there for these journalists when they need it the most.</p>
-            </div>
-            <div class="button1">
-                <button>DONATE NOW</button>
-            </div>
-        </div>
-    </div>
-    <div class="footer2">
-        <div class="mailing-list">
-            <h4>Sign Up For Our Mailing List</h4>
-            <div class="sign-up">
-                <input type="email" name="email" placeholder="Email Address">
-                <button>SUBMIT</button>
-            </div>
-        </div>
-        <div class="more">
-            <div class="mission">
-                <div class="heading">
-                    <h5>MISSION</h5>
-                </div>
-                <div class="specific">
-                    <p>We unleash the potential of women journalists as champions of press freedom to transform the global news media.</p>
-                </div>
-            </div>
-            <div class="contact">
-                <div class="top1">
-                    <div class="heading">
-                        <h5>CONTACT</h5>
-                    </div>
-                    <div class="link">
-                        <a href="">Click here to email us</a>
-                    </div>
-                </div>
-                <div class="bottom1">
-                    <div class="left">
-                        <div class="address">
-                            <p>Address</p>
-                        </div>
-                        <div class="specific">
-                            <p>2002 Massachusetts Ave NW, Ste. 1 Washington, DC 20036, USA</p>
-                        </div>
-                    </div>
-                    <div class="right">
-                        <div class="address">
-                            <p>Please mail checks to:</p>
-                        </div>
-                        <div class="specific">
-                            <p>ATTN: Adena Martin
-                                PO BOX 374
-                                Clinton, MD 20735-9997, USA</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="connect">
-                <div class="heading">
-                    <h5>CONNECT</h5>
-                </div>
-                <div class="social">
-                    <a href=""><p><i class="bi bi-facebook"></i></p></a>
-                    <a href=""><p><i class="bi bi-twitter"></i></p></a>
-                    <a href=""><p><i class="bi bi-instagram"></i></p></a>
-                    <a href=""><p><i class="bi bi-youtube"></i></p></a>
-                </div>
-            </div>
-        </div>
-        <div class="credits">
-            <div class="mark">
-                <img src="https://www.iwmf.org/wp-content/themes/nmc_iwmf/css/images/4star.jpg">
-            </div>
-            <div class="learn-more">
-                <div class="privacy">
-                    <a href="">PRIVACY</a>
-                </div>
-                <div class="terms">
-                    <a href="">TERMS OF SERVICE</a>
-                </div>
-            </div>
-            <div class="copyright">
-                <p>Copyright © 2025 International Women's Media Foundation. All Rights Reserved.</p>
-                <p>Nonprofit Web Design by NMC.</p>
-            </div>
-        </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    </main>
+
+    <script src="main.js"></script>
+    @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
